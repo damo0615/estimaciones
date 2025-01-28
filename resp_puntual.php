@@ -37,7 +37,7 @@
     <img src="img/esta.jpg" id="bg-img">
     <a href="index.php"><button id="btn-int">Inicio</button></a>
     <a href="esti_puntual.php"><button id="btn-var">Puntual</button></a>
-    <div class="index" style="height: 120%;">
+    <div class="index" style="height: 90%;">
         <h1>Resultados dada la muestra:</h1>
         <p>Lo primero es hacer un conteo de cuantos datos fueron agregados a la muestra (n): </p>
         <b>Muestra (n): <?php echo $proq['0']; ?></b>
@@ -48,7 +48,8 @@
         <p>La desviación estándar poblacional es una medida que indica la variación entre los datos de una población. Se representa con la letra griega sigma. La desviación estándar poblacional se calcula como la raíz cuadrada de la varianza de la población.</p>        
         <b>Desviacion Estandar: <?php echo round(sqrt($S),2); ?></b>
         <p>La proporción muestral es la proporción de individuos de una muestra que tienen una característica específica. Se utiliza para estimar la proporción de una característica en una población.</p>
-        <b>Proporcion Muestral: <?php echo round((($prop['0']/$proq['0'])/0.01),2)?></b>
+        <b>Proporcion Muestral: <?php echo round((($prop['0']/$proq['0'])/0.01),2)?>%</b>
     </div>
 </body>
+<?php include "footer.html";?>
 </html>

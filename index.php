@@ -22,4 +22,5 @@
         <a href="esti_interva.php"><button>Estimacion Por intervalos</button></a>
     </div>
 </body>
+    <?php include "footer.html";?>
 </html>

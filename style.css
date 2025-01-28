@@ -11,6 +11,7 @@ body{
 /*INDEX O PAGINA DE INICIO*/
 
  .index{
+    top: 10%;
     position: absolute;
     width: 50%;
     height: 85%;
@@ -23,6 +24,7 @@ body{
  .index h1{
     text-align: center;
     margin-bottom: 2%;
+    margin-top: -5%;
  }
  .index p{
     margin-top: 2.5%;
@@ -78,7 +80,7 @@ body{
     color: #F0E3FF;
     background-color: #3E206D;
  }
- 
+
  /*BOTON DE INICIO Y VARIANTE*/
 
  #btn-int{
@@ -86,7 +88,7 @@ body{
     border: none;
     width: 15%;
     height: 5%;
-    top: 1%;
+    top: 11%;
     left: 1%;
     background-color:rgb(216, 156, 246);
     box-shadow: 2px 2px rgba(42, 0, 105, 0.379);
@@ -100,9 +102,24 @@ body{
     border: none;
     width: 15%;
     height: 5%;
-    top: 7%;
+    top: 17%;
     left: 1%;
     background-color:rgb(216, 156, 246);
     box-shadow: 2px 2px rgba(42, 0, 105, 0.379);
+ }
+
+ /* FOOTER */
+ .foot{
+    top: 0%;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background-color: #3E206D;
+ }
+ .foot p{
+    top: 35%;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
  }
 
